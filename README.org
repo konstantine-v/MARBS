@@ -1,0 +1,23 @@
+#+TITLE: konstantinev's Auto-Rice Bootstraping Scripts (MARBS)
+#+AUTHOR: konstantinev
+** What Is MARBS/LARBS
+In short MARBS is an opinionated fork of LARBS revolving around EMACS rather than Vim.
+If you don't know what LARBS is then please refer to lukesmithxyz's GitHub repository https://github.com/LukeSmithxyz/LARBS/blob/master/README.md
+If you use Emacs+Arch then this might interest you. I left a lot of the shell tools there for when I need to work in a bash or zsh environment, but for the most part removed any tools from the LARBS install that was not useful for me. It focuses on what made LARBS great but tweaking it for my workflow and trimming the fat.
+** Installation
+On an Arch based distribution as root, run the following:
+#+BEGIN_SRC bash
+curl -LO https://raw.githubusercontent.com/konstantine-v/MARBS/master/marbs.sh
+sh marbs.sh
+#+END_SRC
+** Goals
+- Focus on creating a distraction-free environment for editing in Emacs on an Arch-based system.
+- Utilize StumpWM as the Window Manager rather than Suckless DWM or i3
+- Build on the customize-able approach that LARBS has and make it better
+- Pull from my fork of voidrice for dotfiles https://github.com/konstantine-v/voidrice
+** Why Would I Use This?
+I don't expect others to use this, but if they do then that's awesome.
+This is what I want in a system so it is opinionated in most regards.
+** Useful Links
+- [[https://github.com/konstantine-v/voidrice][My fork of voidrice]]
+- [[https://github.com/LukeSmithxyz/LARBS/blob/master/README.md][Original LARBS repo]]
